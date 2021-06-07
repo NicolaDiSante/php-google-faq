@@ -1,0 +1,51 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.w-80{
+  width: 80%;
+  margin: auto;
+}
+
+header{
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo, .ham-menu{
+  display: flex;
+  justify-content: space-between;
+}
+
+nav{
+  height: 40px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+
+ul{
+  display: flex;
+  list-style: none;
+}
+
+nav ul li{
+  padding: 5px 10px;
+}
+
+main{
+  height: calc(100vh - 140px);
+  overflow: auto;
+}
+
+footer{
+  height: 40px;
+  background-color: gray;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+}
